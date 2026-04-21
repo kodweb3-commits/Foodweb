@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dammizz FoodMart – QualityFoos Item Sold at Market Price</title>
+  <link rel="shortcut icon" href="image/damfav-removebg-preview.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css"/>
+  <link href="image/viewport.jpg" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+
+  <!-- ===== TOP BAR ===== -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <span><i class="fas fa-phone-alt"></i> +234 800 DAMMIZZ</span>
+      <span><i class="fas fa-envelope"></i> hello@dammizzfoodmart.com</span>
+    </div>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">🌿</span>
+        <div class="logo-text">
+          <span class="logo-main">Dammizz</span>
+          <span class="logo-sub">Food Mart</span>
+        </div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#offers">Offers</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="nav-search-btn" id="searchToggle"><i class="fas fa-search"></i></button>
+        <button class="cart-btn" id="cartToggle">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+        <button class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <!-- Search Bar -->
+    <div class="search-bar" id="searchBar">
+      <div class="container">
+        <input type="text" id="searchInput" placeholder="Search for fresh vegetables, fruits, dairy…"/>
+        <button id="searchBtn"><i class="fas fa-search"></i> Search</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <span class="hero-badge"><i class="fas fa-leaf"></i> 100% Customer Satisfaction</span>
+        <h1>Eat Healthy <span class="highlight">Stay</span><br><span class="highlight">Healthy</span></h1>
+        <p>Discover the Best Quality FoodStuff, Cakes/Culinary, and everyday essentials — all in one place. Quality you can taste, prices you'll love.</p>
+        <div class="hero-btns">
+          <a href="#products" class="btn btn-primary">Shop Now <i class="fas fa-arrow-right"></i></a>
+         
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span>10+</span><p>Products</p></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span>5+</span><p>Happy Customers</p></div>
+          <div class="stat"><span>100%</span><p>Quality Food Item At Market price</p></div>
+        </div>
+      </div>
+      <div class="hero-image">
+        
+    </div>
+    <!-- Scroll indicator -->
+    <div class="scroll-Down"><span></span></div>
+  </section>
+
+  <!-- ===== MARQUEE STRIP ===== -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span> Delivery is Nationwide</span>
+      <span>Farm products and Groceries</span>
+      <span>Eat healthy and Stay Healthy</span>
+      <span>Located at Ibadan</span>
+      <span> Delivery is Nationwide</span>
+      <span>Farm products and Groceries</span>
+      <span>Eat healthy and Stay Healthy</span>
+      <span>Located at Ibadan</span>
+      <span> Delivery is Nationwide</span>
+      <span>Farm products and Groceries</span>
+      <span>Eat healthy and Stay Healthy</span>
+      <span>Located at Ibadan</span>
+     
+     
+    </div>
+  </div>
+
+  <!-- ===== CATEGORIES ===== -->
+  <section class="categories" id="categories">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Browse</span>
+        <h2>Shop by <span>Category</span></h2>
+        <p>Find everything you need, organized for your convenience</p>
+      </div>
+      <div class="categories-grid">
+        <div class="cat-card" data-category="vegetables">
+          <div class="src"></div>
+          <h3>Foodstuffs</h3>
+          <span>48 Items</span>
+        </div>
+        <div class="cat-card" data-category="fruits">
+          <div class="cat-icon"></div>
+          <h3>Dried Foods</h3>
+          <span>62 Items</span>
+        </div>
+        <div class="cat-card" data-category="dairy">
+          <div class="cat-icon"></div>
+          <h3>Provisions</h3>
+          <span>30 Items</span>
+        </div>
+        <div class="cat-card" data-category="bakery">
+          <div class="cat-icon"></div>
+          <h3>Bakery</h3>
+          <span>25 Items</span>
+        </div>
+        <div class="cat-card" data-category="snacks">
+          <div class="cat-icon"></div>
+          <h3>Snacks</h3>
+          <span>70 Items</span>
+        </div>
+    </div>
+  </section>
+
+  <!-- ===== OFFERS BANNER ===== -->
+  <section class="offers-banner" id="offers">
+    <div class="container offers-grid">
+      <div class="offer-card offer-big">
+        <div class="offer-content">
+          <span class="offer-tag">Best Quality Foods</span>
+          <h2>We Supply Food In Bags And Halves</h2>
+          <p>Limited time offer on vegetables & fruits</p>
+          <a href="#products" class="btn btn-white">Shop Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="offer-img">🥗</div>
+      </div>
+      <div class="offer-card offer-small offer-red">
+        <div class="offer-content">
+          <span class="offer-tag">New Arrivals</span>
+          <h2>We will let you know</h2>
+          <a href="#products" class="btn btn-white-sm">Explore</a>
+        </div>
+        <div class="offer-img">🌿</div>
+      </div>
+      <div class="offer-card offer-small offer-gold">
+        <div class="offer-content">
+          <span class="offer-tag">Fast Delivery</span>
+          <h2> Delivery<br>To Destination</h2>
+          <a href="#contact" class="btn btn-white-sm">Order Now</a>
+        </div>
+        <div class="offer-img">🚚</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTS ===== -->
+  <section class="products-section" id="products">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Products</span>
+        <h2>Fresh <span>Picks</span> For You</h2>
+        <p>Handpicked daily from the freshest sources</p>
+      </div>
+      <div class="product-filter-tabs">
+        <button class="filter-tab active" data-filter="all">All</button>
+        <button class="filter-tab" data-filter="Foodstuffs">Foodstuffs</button>
+        <button class="filter-tab" data-filter="Foods">Dried Foods</button>
+        <button class="filter-tab" data-filter="Provision">Provision</button>
+        <button class="filter-tab" data-filter="Bakery">Bakery</button>
+        <button class="filter-tab" data-filter="snacks">snacks</button>
+        <button class="filter-tab" data-filter="Household">Household</button>
+      </div>
+      <div class="products-grid" id="productsGrid">
+        <!-- Products are injected by JS -->
+      </div>
+      <div class="load-more-wrap">
+        <button class="btn btn-primary" id="loadMoreBtn">Load More Products <i class="fas fa-chevron-down"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="why-us" id="about">
+    <div class="container">
+      <div class="why-us-inner">
+        <div class="why-us-text">
+          <span class="section-tag">Why Dammizz?</span>
+          <h2>We Go Beyond <span>Just Groceries</span></h2>
+          <p>At Dammizz Food Mart, we believe every family deserves access to fresh, quality food at affordable prices. Our commitment goes beyond selling groceries — we're building a healthier community.</p>
+          <div class="why-features">
+            <div class="why-feature">
+              <div class="wf-icon"><i class="fas fa-leaf"></i></div>
+              <div>
+                <h4>100% Fresh Produce</h4>
+                <p>Sourced directly from trusted farms every single day.</p>
+              </div>
+            </div>
+            <div class="why-feature">
+              <div class="wf-icon"><i class="fas fa-tag"></i></div>
+              <div>
+                <h4>Unbeatable Prices</h4>
+                <p>Get the best value without compromising on quality.</p>
+              </div>
+            </div>
+            <div class="why-feature">
+              <div class="wf-icon"><i class="fas fa-shield-alt"></i></div>
+              <div>
+                <h4>Safe & Hygienic</h4>
+                <p>All products meet strict hygiene and safety standards.</p>
+              </div>
+            </div>
+            <div class="why-feature">
+              <div class="wf-icon"><i class="fas fa-headset"></i></div>
+              <div>
+                <h4>24/7 Support</h4>
+                <p>Our team is always here to help with your needs.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="why-us-visual">
+          <div class="visual-card vc-main">
+            <div class="vc-emoji">🏪</div>
+            <h3>Dammizz Store</h3>
+            <p>Your community supermarket since 2015</p>
+          </div>
+          <div class="visual-card vc-sm vc-sm1">
+            <span>⭐ 4.9/5</span>
+            <p>Customer Rating</p>
+          </div>
+          <div class="visual-card vc-sm vc-sm2">
+            <span>🚚 30min</span>
+            <p>Fast Delivery</p>
+          </div>
+          <div class="visual-card vc-sm vc-sm3">
+            <span>♻️ Eco</span>
+            <p>Sustainable Packing</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <!-- ===== NEWSLETTER ===== -->
+  <section class="newsletter">
+    <div class="container newsletter-inner">
+      <div class="nl-text">
+        <h2>🌿 Get Fresh Deals in Your Inbox</h2>
+        <p>Subscribe and never miss our weekly offers, new arrivals, and seasonal specials.</p>
+      </div>
+      <div class="nl-form">
+        <input type="email" id="nlEmail" placeholder="Enter your email address…"/>
+        <button id="nlBtn">Subscribe <i class="fas fa-paper-plane"></i></button>
+      </div>
+      <div class="nl-success" id="nlSuccess">🎉 Thank you! You're now subscribed to our newsletter.</div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2>Contact <span>Us</span></h2>
+        <p>We'd love to hear from you. Reach us anytime!</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="ci-card">
+            <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <h4>Visit Us</h4>
+            <p>12 Market Road, Ikeja, Lagos State, Nigeria</p>
+          </div>
+          <div class="ci-card">
+            <div class="ci-icon"><i class="fas fa-phone-alt"></i></div>
+            <h4>Call Us</h4>
+            <p>+234 800 DAMMIZZ<br>+234 901 234 5678</p>
+          </div>
+          <div class="ci-card">
+            <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+            <h4>Email Us</h4>
+            <p>hello@dammizzfoodmart.com<br>support@dammizzfoodmart.com</p>
+          </div>
+          <div class="ci-card">
+            <div class="ci-icon"><i class="fas fa-clock"></i></div>
+            <h4>Opening Hours</h4>
+            <p>Mon – Sat: 7:00am – 10:00pm<br>Sunday: 8:00am – 8:00pm</p>
+          </div>
+          <div class="ci-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <h3>Send Us a Message</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Full Name</label>
+              <input type="text" id="cfName" placeholder="Your full name" required/>
+            </div>
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="email" id="cfEmail" placeholder="your@email.com" required/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" id="cfPhone" placeholder="+234 000 000 0000"/>
+          </div>
+          <div class="form-group">
+            <label>Subject</label>
+            <select id="cfSubject">
+              <option value="">Select a subject…</option>
+              <option>Order Enquiry</option>
+              <option>Product Availability</option>
+              <option>Delivery Issue</option>
+              <option>Feedback</option>
+              <option>Partnership</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea id="cfMessage" rows="5" placeholder="Tell us how we can help you…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">Send Message <i class="fas fa-paper-plane"></i></button>
+          <div class="form-success" id="formSuccess">✅ Message sent! We'll get back to you within 24 hours.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <span>🌿</span>
+          <div>
+            <strong>Dammizz</strong>
+            <small>Food Mart</small>
+          </div>
+        </div>
+        <p>Your trusted neighbourhood supermarket delivering freshness, quality, and value every single day.</p>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#offers">Offers & Deals</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="#">Fresh Vegetables</a></li>
+          <li><a href="#">Fresh Fruits</a></li>
+          <li><a href="#">Dairy & Eggs</a></li>
+          <li><a href="#">Bakery Items</a></li>
+          <li><a href="#">Meat & Seafood</a></li>
+          <li><a href="#">Beverages</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Customer Care</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Delivery Info</a></li>
+          <li><a href="#">Return Policy</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Track My Order</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2025 Dammizz Food Mart. All rights reserved. Made with ❤️ in Nigeria.</p>
+        <div class="payment-icons">
+          <span>💳</span><span>🏦</span><span>📱</span>
+          <small>Secure Payments</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== CART SIDEBAR ===== -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <div class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">
+      <h3>🛒 Your Cart</h3>
+      <button id="closeCart"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="cart-body" id="cartBody">
+      <div class="empty-cart" id="emptyCart">
+        <div class="empty-cart-icon">🛒</div>
+        <h4>Your cart is empty</h4>
+        <p>Add items to get started!</p>
+        <a href="#products" class="btn btn-primary" id="shopNowCart">Start Shopping</a>
+      </div>
+      <div class="cart-items" id="cartItems"></div>
+    </div>
+    <div class="cart-footer" id="cartFooter" style="display:none">
+      <div class="cart-summary">
+        <div class="cs-row"><span>Subtotal</span><span id="cartSubtotal">₦0.00</span></div>
+        <div class="cs-row"><span>Delivery</span><span class="free-tag">FREE</span></div>
+        <div class="cs-row total"><span>Total</span><span id="cartTotal">₦0.00</span></div>
+      </div>
+      <button class="btn btn-primary full-width" id="checkoutBtn">Proceed to Checkout <i class="fas fa-arrow-right"></i></button>
+      <button class="btn btn-outline full-width" id="clearCartBtn">Clear Cart</button>
+    </div>
+  </div>
+
+  <!-- ===== TOAST ===== -->
+  <div class="toast" id="toast"></div>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
